@@ -1,0 +1,8 @@
+{
+  "name": "retailco-functions",
+  "version": "1.0.0",
+  "description": "RetailCo serverless functions - order confirmation (HTTP) and nightly report (Timer)",
+  "scripts": {
+    "start": "func start"
+  }
+}
