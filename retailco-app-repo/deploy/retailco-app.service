@@ -4,8 +4,8 @@ After=network.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/azureuser/retailco-app
-ExecStart=/usr/bin/node /home/azureuser/retailco-app/server.js
+WorkingDirectory=/home/azureuser/azure-compute/retailco-app-repo
+ExecStart=/usr/bin/node /home/azureuser/azure-compute/retailco-app-repo/server.js
 Restart=always
 RestartSec=5
 Environment=PORT=8080
