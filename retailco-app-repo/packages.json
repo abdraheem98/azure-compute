@@ -1,0 +1,12 @@
+{
+  "name": "retailco-order-app",
+  "version": "1.0.0",
+  "description": "Minimal demo app for Module 4 - hostname identification + real health endpoint",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

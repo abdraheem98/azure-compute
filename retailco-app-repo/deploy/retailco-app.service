@@ -1,0 +1,14 @@
+[Unit]
+Description=RetailCo order-management demo app
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/azureuser/retailco-app
+ExecStart=/usr/bin/node /home/azureuser/retailco-app/server.js
+Restart=always
+RestartSec=5
+Environment=PORT=8080
+
+[Install]
+WantedBy=multi-user.target
